@@ -300,7 +300,7 @@ markdown中可以插入html标签，包括`<kdb> <b> <i> <em> <sup> <sub> <br>`�
 > 以前GitHub对中文支持的不好，所以中文标题不能正确识别为锚点，但是现在已经没问题啦！
 
 
-### 复选框列表
+### 任务列表
 
 `- [x] 内容1`表示内容1已完成，`- [ ] 内容2`表示内容2未完成，一般使用这个功能来标注某个项目各项任务的完成情况
 
@@ -342,7 +342,7 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 ```
 
 
-
+:)__
 
 ### 公式
 
@@ -361,8 +361,17 @@ $$
 $$
 
 
+### GFM VS SM
 
+下面对GFM和SM的区别进行一下总结：
 
+* GFM二级标题自动带有下划线
+* GFM在issue中通过`#和数字`自动链接到对应的issue（request也支持）（eg：#1）
+* GFM自动识别链接，链接不用尖括号括起来也会被认为是链接。
+* GFM实现代码语法高亮
+* GFM自动@别人
+* GFM自动引用，包括项目，用户名，issue等
+* GFM支持上面介绍过的任务列表
 
 
 ### 语法
@@ -418,6 +427,8 @@ $$
 * [MarkDown书写规范](https://github.com/hoosin/MarkDown)
 * [Markdown 编辑器语法指南](https://segmentfault.com/markdown)
 * [Markdown 基本语法](https://github.com/younghz/Markdown/tree/master)
+* [README文件语法解读](https://github.com/guodongxiaren/README)
+
 
 ### 题外话
 
@@ -426,8 +437,7 @@ $$
 
 ### 需要总结的链接地址
 
-* https://github.com/guodongxiaren/README
-* https://github.com/hoosin/MarkDown
+
 * https://markdown-it.github.io/
 * https://github.com/younghz/Markdown/tree/master
 * https://github.com/GitbookIO/markdown
