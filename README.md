@@ -269,13 +269,32 @@ markdown中可以插入html标签，包括`<kdb> <b> <i> <em> <sup> <sub> <br>`�
 <b>加粗字体</b>
 ```
 
-https://gist.github.com/merrier/eb66c2aff47067d3bbfeaf570733a0f4
-
 #### 效果：
 
 使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
 <pre>代码块</pre>
 <b>加粗字体</b>
+
+
+### 公式
+
+当你需要在编辑器中插入数学公式时，可以使用两个美元符`$$`包裹TeX或LaTeX格式的数学公式来实现，并且支持HTML属性：
+
+```
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $$
+$$
+(x+1)^2 = \cssId{step1}{\style{visibility:hidden}{(x+1)(x+1)}}
+$$
+```
+
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $$
+$$
+(x+1)^2 = \cssId{step1}{\style{visibility:hidden}{(x+1)(x+1)}}
+$$
+
+
+
+
 
 
 ### 语法
