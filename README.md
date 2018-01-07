@@ -287,7 +287,7 @@ $$
 $$
 ```
 
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $$
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $$    
 $$
 (x+1)^2 = \cssId{step1}{\style{visibility:hidden}{(x+1)(x+1)}}
 $$
