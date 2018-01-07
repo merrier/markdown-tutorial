@@ -342,8 +342,6 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 ```
 
 
-:)__
-
 ### 公式
 
 当你需要在编辑器中插入数学公式时，可以使用两个美元符`$$`包裹TeX或LaTeX格式的数学公式来实现，并且支持HTML属性：
@@ -428,16 +426,8 @@ $$
 * [Markdown 编辑器语法指南](https://segmentfault.com/markdown)
 * [Markdown 基本语法](https://github.com/younghz/Markdown/tree/master)
 * [README文件语法解读](https://github.com/guodongxiaren/README)
-
+* [markdown-it](https://markdown-it.github.io/)
 
 ### 题外话
 
 不同的Markdown解释器或工具对相应语法（扩展语法）的解释效果不尽相同，具体可参见工具的使用说明。 虽然有人想出面搞一个所谓的标准化的Markdown，[没想到还惹怒了健在的创始人John Gruber](http://blog.codinghorror.com/standard-markdown-is-now-common-markdown/)。
-
-
-### 需要总结的链接地址
-
-
-* https://markdown-it.github.io/
-* https://github.com/younghz/Markdown/tree/master
-* https://github.com/GitbookIO/markdown
