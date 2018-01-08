@@ -304,7 +304,8 @@ markdown中可以插入html标签，包括`<kdb> <b> <i> <em> <sup> <sub> <br>`�
 
 |语法|效果|
 |---|---|
-|`[回到顶部](#markdown-tutorial)`|[回到顶部](#markdown-tutorial)|
+|```[回到顶部](#markdown-tutorial)```|[回到顶部](#markdown-tutorial)|
+|```**[⬆ back to top](#table-of-contents)**```|**[⬆ back to top](#table-of-contents)**|
 
 不过要注意，标题中的英文字母都会被转化为**小写字母**。
 > 以前GitHub对中文支持的不好，所以中文标题不能正确识别为锚点，但是现在已经没问题啦！
