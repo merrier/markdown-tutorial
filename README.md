@@ -2,6 +2,12 @@
 
 Markdown是一个将文本转化为HTML的工具。简单来说，Markdown是一个兼顾可读性与易用性的轻量级标记体系。Markdown并不追求大而全，它只关心HTML里最常用的几个标记，对于一些不常用的标记它允许直接将HTML标记插入文本。
 
+## GFM & SM
+
+GitHub 全站支持 “GitHub 风格的 Markdown 语法”（简称 GFM），你可以用它来书写 issue、pull request（以下简称 “PR”）和各种评论。它和标准 Markdown 语法（SM）相比，存在一些值得注意的差异，并且增加了一些额外功能。
+
+> 如果你想了解在书写 issue、评论和 PR 描述时有哪些技巧（比如任务清单这样的高级功能），你应该读一下[GitHub 上的书写方式](https://github.com/baixing/FE-Blog/issues/5)
+
 ## 基本用法
 
 ### 标题
@@ -39,7 +45,9 @@ Markdown是一个将文本转化为HTML的工具。简单来说，Markdown是一
 
 通过成对的`**`和`__`表示加粗字体；通过成对的`*`和`_`表示倾斜字体；通过成对的`~~`表示删除字体：
 
-> 斜体、粗体、删除线可混合使用
+> 斜体、粗体、删除线可混合使用，删除线为GFM新增语法
+
+> SM语法会把所有成对的`_`转换为斜体，但GFM不会处理英文单词内的那些下划线。所以在GFM中，如果你确实要把单词中的某一部分设置为斜体，可以使用`*`
 
 |语法|效果|
 |----|-----|
@@ -143,7 +151,9 @@ ___
 
 ### 代码
 
-通过成对的\`\`\`表示代码，同时后面可以加上编程语言的名字，代码段落则是在每行文字前加4个空格或者1个缩进符表示。（\`在键盘数字1的左边）：
+SM会把每行前面空四格的文本块转换为代码块，而GFM还可以通过成对的\`\`\`表示代码块，同时后面可以加上编程语言的名字，为代码块指定语法着色效果（\`在键盘数字1的左边）：
+
+> 代码段落则是在每行文字前加4个空格或者1个缩进符表示
 
 #### 效果：
 
@@ -151,6 +161,9 @@ ___
 代码片段
     代码段落
 ```
+
+> GFM使用[Linguist](https://github.com/github/linguist)来进行语言识别和语法着色。你可以在[语言 YAML 文件](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)中查证哪些语言标识符是有效的。
+
 如果不需要代码高亮，可以用下面的方式禁用：
 
 ```nohighlight
@@ -214,9 +227,7 @@ ___
 |默认居左|只有左侧有`:`表示居左|只有右侧有`:`表示居右|两侧都有`:`表示居中|
 
 
-
 ## 高级用法
-
 
 ### 换行
 
@@ -282,6 +293,8 @@ markdown中可以插入html标签，包括`<kdb> <b> <i> <em> <sup> <sub> <br>`�
 |```<pre>代码块</pre>```|<pre>代码块</pre>|
 |```<b>加粗字体</b>```|<b>加粗字体</b>|
 
+> 关于可用的标签和属性有哪些，你可以在[github/markup](https://github.com/github/markup)这个项目中找到一份完整的清单。
+
 
 ### 锚点
 
@@ -342,30 +355,13 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 ```
 
 
-### 公式
-
-当你需要在编辑器中插入数学公式时，可以使用两个美元符`$$`包裹TeX或LaTeX格式的数学公式来实现，并且支持HTML属性：
-
-```
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $$
-$$
-(x+1)^2 = \cssId{step1}{\style{visibility:hidden}{(x+1)(x+1)}}
-$$
-```
-
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $$
-$$
-(x+1)^2 = \cssId{step1}{\style{visibility:hidden}{(x+1)(x+1)}}
-$$
-
-
 ### GFM VS SM
 
 下面对GFM和SM的区别进行一下总结：
 
 * GFM二级标题自动带有下划线
 * GFM在issue中通过`#和数字`自动链接到对应的issue（request也支持）（eg：#1）
-* GFM自动识别链接，链接不用尖括号括起来也会被认为是链接。
+* GFM自动识别链接，链接不用尖括号括起来也会被认为是链接（Email地址同样适用）。
 * GFM实现代码语法高亮
 * GFM自动@别人
 * GFM自动引用，包括项目，用户名，issue等
@@ -427,6 +423,7 @@ $$
 * [Markdown 基本语法](https://github.com/younghz/Markdown/tree/master)
 * [README文件语法解读](https://github.com/guodongxiaren/README)
 * [markdown-it](https://markdown-it.github.io/)
+* [GitHub 风格的 Markdown 语法](https://github.com/baixing/FE-Blog/issues/6)
 
 ### 题外话
 
