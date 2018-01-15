@@ -338,7 +338,7 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 
 ### 旗帜
 
-有时候我们需要添加不同语言版本，而在GFM中可以像添加普通图片一样添加该国家的国旗标志：
+有时候我们需要添加不同语言版本，而在GFM中可以像添加普通图片一样添加该国家/地区的国旗标志：
 
 
 |国家|语法|效果|
@@ -376,6 +376,54 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 + 新增内容
 - 删除内容
 ```
+
+### 点击展开效果
+在github上面闲逛时看到一些很动态的效果，比如"点击展开"这种效果，其语法是将内容用`details`包裹，然后将可点击内容用`summary`包裹：
+
+```
+<details>
+<summary><b>show the qrcode image</b> (click to show)</summary>
+
+![qrcode](./src/qrcode.jpg)
+
+</details>
+```
+
+#### 效果：
+
+<details>
+<summary><b>show the qrcode image</b> (click to show)</summary>
+
+![qrcode](./src/qrcode.jpg)
+
+</details>
+
+当然，你可以发挥自己的想象力，将"点击展开效果"应用在其他地方，比如隐藏目录：
+
+```
+<details>
+<summary><b>Expand to show Table of Contents</b> (click to show)</summary>
+* Level 1
+* Level 1
+  * Level 2
+  * Level2
+    * Level 3
+    * Level 3
+* Level 1
+</details>
+```
+
+<details>
+<summary><b>Expand to show Table of Contents</b> (click to show)</summary>
+
+* Level 1
+* Level 1
+  * Level 2
+  * Level2
+    * Level 3
+    * Level 3
+* Level 1
+</details>
 
 
 ### GFM VS SM
