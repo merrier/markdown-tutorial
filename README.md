@@ -336,6 +336,18 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 
 但是这个网页每次都打开奇慢。。所以有位大牛整理到了自己的repo中，大家可以直接在此查看[emoji](http://github.com/guodongxiaren/README/blob/master/emoji.md)。
 
+### 旗帜
+
+有时候我们需要添加不同语言版本，而在GFM中可以像添加普通图片一样添加该国家的国旗标志：
+
+
+|国家|语法|效果|
+|----|----|----|
+|Brazil|```![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Brazil.png)```|![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Brazil.png)|
+
+
+
+
 
 ### diff语法
 版本控制的系统中都少不了diff的功能，即展示一个文件内容的增加与删除。GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示删除。
