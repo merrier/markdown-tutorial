@@ -344,9 +344,19 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 |国家|语法|效果|
 |----|----|----|
 |Brazil|```![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Brazil.png)```|![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Brazil.png)|
-
-
-
+|Bulgaria|```![bg](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Bulgaria.png)```|![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Bulgaria.png)|
+|China|```![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png)```|![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png)|
+|France|```![fr](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/France.png)```|![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/France.png)|
+|Germany|```![de](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Germany.png)```|![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Germany.png)|
+|Italy|```![it](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Italy.png)```|![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Italy.png)|
+|Japan|```![jp](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Japan.png)```|![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Japan.png)|
+|South-Korea|```![kr](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/South-Korea.png)```|![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/South-Korea.png)|
+|Russia|```![ru](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Russia.png)```|![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Russia.png)|
+|Spain|```![es](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Spain.png)```|![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Spain.png)|
+|Thailand|```![th](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Thailand.png)```|![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Thailand.png)|
+|Ukraine|```![ua](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Ukraine.png)```|![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Ukraine.png)|
+|Vietnam|```![vn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Vietnam.png)```|![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Vietnam.png)|
+|Catalan|```![ca](https://raw.githubusercontent.com/fpmweb/javascript-style-guide/master/img/catala.png)```|![ca](https://raw.githubusercontent.com/fpmweb/javascript-style-guide/master/img/catala.png)|
 
 
 ### diff语法
