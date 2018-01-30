@@ -377,6 +377,31 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 - 删除内容
 ```
 
+### 目录树
+
+为了更直观的对项目结构进行解释，有时候需要在README等文件中插入`目录树`：
+
+```
+Project
+|-- ContentStore
+|   |-- de-DE
+|   |   |-- art.mshc
+|   |-- en-US
+|       |-- art.mshc
+|       |-- artnoloc.mshc
+|-- IndexStore
+    |-- de-DE
+    |   |-- art.mshi
+    |   |-- artnoloc.mshi
+    |   |-- clientserver.mshi
+```
+
+> 复制以上代码就可以完成一棵目录树了:)
+
+
+<iframe src="https://ghbtns.com/github-btn.html?user=yidao620c&amp;repo=python3-cookbook&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="156px" height="30px"></iframe>
+
+
 ### 点击展开效果
 在github上面闲逛时看到一些很动态的效果，比如"点击展开"这种效果，其语法是将内容用`details`包裹，然后将可点击内容用`summary`包裹：
 
